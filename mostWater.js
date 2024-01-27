@@ -22,7 +22,7 @@ function containerWithMostWater(heights) {
 
 console.log(containerWithMostWater([1, 18, 6, 20, 9, 4]));
 
-console.log("-------------------------------");
+console.log("-----------------------------");
 
 function containerWithMostWaterOptimal(heights) {
     let maxWater  = 0;
