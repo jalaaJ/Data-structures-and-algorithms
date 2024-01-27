@@ -33,7 +33,7 @@ const string2 = "d";
 
 console.log(typedoutString(string1, string2));
 
-console.log("------------------------------");
+console.log("-------------------------------");
 
 function typedoutStringOptimal(fString, sString) {
     let p1 = fString.length - 1;
