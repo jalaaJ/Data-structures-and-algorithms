@@ -18,7 +18,7 @@ console.log(twoSum([1, 6], 6));
 console.log(twoSum([], 6));
 console.log(twoSum([5], 5));
 
-console.log("------------------------------");
+console.log("-------------------------------");
 
 // Optimal solution using a hashmap or an object, to keep track
 // of the nTF and the index of the number that gave us the nTF value.
