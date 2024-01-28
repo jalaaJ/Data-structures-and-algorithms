@@ -1,4 +1,7 @@
-// abcbda
+
+// Time complexity: O(N^2)
+// Space complexity: O(N) - because the map is getting reset at each iteration ( so it's not O(N^2) )
+
 function longestSunstring(s) {
     if (s.length <= 1) return s.length;
 
@@ -21,3 +24,6 @@ function longestSunstring(s) {
 
 let s = "abcbda";
 console.log(longestSunstring(s));
+
+console.log("-----------------------------------")
+
